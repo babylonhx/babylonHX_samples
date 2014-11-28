@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <meta title="BabylonHx1" package="com.example.ds.babylonhx1" version="1.0.0" company="Company Name"/>
+    <window fps="60" require-shaders="true" hardware="true" depth-buffer="true"/>
+    <window vsync="true" if="ios" />
+    <window orientation="landscape" if="cpp" />
+    <app main="Main" path="Export" file="BabylonHx1"/>
+    <haxelib name="openfl"/>
+    <source path="../../"/>
+    <source path="Source"/>
+
+
+    <assets path="Assets" rename="assets" exclude="openfl.svg"/>
+
+    <icon path="Assets/openfl.svg"/>
+    <haxedef name="dom"/>
+</project>
